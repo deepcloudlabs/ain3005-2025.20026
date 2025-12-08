@@ -1,0 +1,7 @@
+pymongo
+Flask
+flask-cors
+flask-socketio
+eventlet
+pydantic
+flask-pydantic-openapi
