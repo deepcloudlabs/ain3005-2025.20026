@@ -5,3 +5,8 @@ flask-socketio
 eventlet
 pydantic
 flask-pydantic-openapi
+fastapi
+uvicorn
+python-socketio[asgi]
+python-socketio-client
+websocket-client
