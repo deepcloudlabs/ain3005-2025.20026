@@ -5,11 +5,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field, ConfigDict
 from pymongo import MongoClient
 
-
-# If you want Socket.IO (hire/fire events) with FastAPI, uncomment below and use python-socketio:
-#   pip install "python-socketio[asgi]"
-# import socketio
-
 class Employee(BaseModel):
     identity: str = Field(
         ...,
@@ -79,18 +74,9 @@ class StatusMessage(BaseModel):
         description="Optional human-readable detail about the status",
     )
 
-
-# =======================
-#   MongoDB connection
-# =======================
-
 mongo_client = MongoClient("mongodb://localhost:27017")
 hrdb = mongo_client["hrdb"]
 employees_collection = hrdb["employees"]
-
-# =======================
-#   FastAPI app
-# =======================
 
 fastapi_app = FastAPI(
     title="HR REST API",
