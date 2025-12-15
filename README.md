@@ -2,8 +2,6 @@
 
 These projects are created as part of the following training: AIN-3005 "Advanced Python Programming"
 
-# AIN-3005: Advanced Python Programming
-
 This repository is the single source of truth for code assets used in **AIN-3005 (Advanced Python Programming)**. It is designed to help you onboard quickly, stay aligned throughout the semester, and accelerate your learning curve with runnable examples and module-based content.
 
 The operating model is simple: each module folder contains practical material that supports lecture outcomes, lab-style practice, and homework/project implementation patterns.
