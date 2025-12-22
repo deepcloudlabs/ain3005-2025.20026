@@ -1,0 +1,51 @@
+[
+  [
+    "jack shephard",
+    "Sales",
+    100000,
+    1978,
+    true
+  ],
+  [
+    "kate austen",
+    "IT",
+    200000,
+    1985,
+    false
+  ],
+  [
+    "ben linus",
+    "Finance",
+    150000,
+    1967,
+    true
+  ],
+  [
+    "james sawyer",
+    "HR",
+    70000,
+    1979,
+    true
+  ],
+  [
+    "kim kwon",
+    "Sales",
+    120000,
+    1986,
+    true
+  ],
+  [
+    "sun kwon",
+    "IT",
+    170000,
+    1984,
+    false
+  ],
+  [
+    "hugo reyes",
+    "IT",
+    120000,
+    1992,
+    true
+  ]
+]
